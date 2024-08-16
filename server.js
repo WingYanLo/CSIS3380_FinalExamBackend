@@ -5,7 +5,7 @@ const bookRouter = require('./routes/bookRouter');
 require('dotenv').config(); // For reading environment variables from .env
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 const URI = process.env.MONGO_URI || "mongodb+srv://low3:ag6r77Ve9rGmMrdR@cluster0.hrxkceq.mongodb.net/BookDB";
 
 // Middleware
